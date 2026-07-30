@@ -1,7 +1,26 @@
 aid: miuros
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miuros.png
 name: Miuros
-description: Miuros is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Miuros is a performance platform for customer service that provides AI-powered
+  analytics, quality assurance (Review & Insights), and agent-assist automation
+  (Assist) for international and scaling customer support teams. Founded as a
+  standalone startup and backed by Techstars, Miuros was acquired by Dixa and is
+  now offered as Miuros by Dixa. The Miuros product surface — Data sync, Review &
+  Insights, Assist, and Miuros APIs — remains operational and is tracked on a
+  dedicated Miuros status page, while platform developer documentation is served
+  through the Dixa developer hub.
 url: https://raw.githubusercontent.com/api-evangelist/miuros/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Customer Service
+- Customer Support
+- Analytics
+- Quality Assurance
+- Artificial Intelligence
+- SaaS
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://miuros.com/
+- type: StatusPage
+  url: https://status.miuros.com/
+- type: Login
+  url: https://auth.miuros.com/
+- type: Support
+  url: mailto:support@miuros.com
+- type: Lifecycle
+  url: lifecycle/miuros-lifecycle.yml
+- type: DomainSecurity
+  url: security/miuros-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
