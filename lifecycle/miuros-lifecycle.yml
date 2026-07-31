@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.miuros.com/
+status_page: https://status.miuros.com/
+status_components:
+- Data sync
+- Miuros Review & Insights
+- Miuros Assist
+- Miuros APIs
+notes: >-
+  Miuros was acquired by Dixa; miuros.com now redirects to
+  https://www.dixa.com/miuros-by-dixa. The Miuros product surface
+  (Review & Insights, Assist, Data sync, Miuros APIs) remains live and
+  is tracked on a dedicated Miuros status page. No standalone Miuros
+  versioning or deprecation policy is published publicly; platform
+  developer documentation is served through Dixa (https://docs.dixa.io/).
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
